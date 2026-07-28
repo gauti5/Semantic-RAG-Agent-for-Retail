@@ -1,6 +1,7 @@
 # Semantic-RAG-Agent-for-Retail
 
 ## Result 
+
 Total Pages loaded : 25
 
 Adding metadata..
@@ -68,6 +69,10 @@ length : 98
 CONFIDENTIAL — For authorized store personnel only.
 
 FreshMart Retail Display Manual v4.2 — Page 2
+
+
+
+
 
 Total Chunks after Semantic Chunker : 52
 
@@ -173,7 +178,7 @@ Content Type : short_text
 Length : 1183
 
 
-## Evaluation : 
+Evaluation : 
 
 data={
     'question': ["What is the required temperature range for the cold vault?"],
