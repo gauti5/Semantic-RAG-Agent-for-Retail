@@ -1,0 +1,12 @@
+def embedding_factory(*args, **kwargs):
+    """Deprecated: Use embedding_factory from base module directly."""
+    import warnings
+
+    warnings.warn(
+        "Importing embedding_factory from ragas.embeddings is deprecated. "
+        "Import directly from ragas.embeddings.base or use modern providers: "
+        "from ragas.embeddings import OpenAIEmbeddings, GoogleEmbeddings, HuggingFaceEmbeddings",
+        DeprecationWarning,
+        stacklevel=2,
+    )
+    return _embedding_factory(*args, **kwargs)
